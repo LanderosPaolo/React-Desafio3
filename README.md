@@ -1,1 +1,1 @@
-# Desafío 3 React - Renderización de componentes
+# Desafío 3 React - Renderizado de componentes
