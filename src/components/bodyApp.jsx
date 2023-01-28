@@ -25,6 +25,7 @@ const BodyApp = () => {
         setContador(contador + 1)
         setName('')
         setMail('')
+        setDisable(true)
     }
 
     const deleted = (c) => {
@@ -69,7 +70,7 @@ const BodyApp = () => {
                                                 type="email" 
                                                 placeholder="Ingresa el correo del colaborador" />
                 </Form.Group>
-                <ButtonA disable={disable} setDisable={setDisable}/>
+                <ButtonA disable={disable}/>
             </Form>
             <hr />
             <h2 className='listTitle'>Lista de colaboradores</h2>
